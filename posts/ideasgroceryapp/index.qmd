@@ -1,0 +1,56 @@
+---
+title: "Grocery app"
+description: "Ideas to create a grocery management app"
+author: "Erika Borelli"
+date: "10/07/2024"
+image: "shopping_troley.jpg"
+categories: [shiny, ideas]
+---
+
+I have to admit that I love to do groceries. I'm living in Ireland at the moment and the supermarket is just 5 minutes from my home. I usually go there 2/3 times a week since I have to walk there and bring everything in a small trolley.
+
+I'm pretty sure that the prices are getting higher and higher really quick but I just have my memory to check this, right? WRONG!
+
+As a data scientist I'm always looking on everything as a possible data to be use. It seems crazy to think in that way, but for me is fun. So I've being working with a Grocery management app to get insights about my groceries tendencies.
+
+So the idea is to create an app registering the groceries, with date, supermarket, values, discounts and then analyse several things.
+
+### Groceries insights
+
+Here are some things that it came to my mind when analyzing the data:
+
+-   How many groceries per month/week
+
+-   Average total spent per grocery/month/week
+
+-   Most purchased products by month/year
+
+-   Changes in the price of products and witch one get the highest difference
+
+-   Percentage of the increase on the price
+
+-   How much we spent on each product by month/year
+
+-   Analysis by type and subtype of products
+
+-   More expensive product and least expensive product
+
+-   Comparison between supermarket prices
+
+-   Identify peak spending periods and see if they correspond to specific events or seasonal changes.
+
+-   how much was saved from discounts and identify if there are specific products or periods where discounts are most frequent
+
+-   Find out which discounts lead to the most savings and see if there are opportunities to use them more effectively
+
+-   Analyze if there is a shift in the type or subtype of products and correlate with health or lifestyle goals
+
+### Framework
+
+I love working with Shiny. It could be complex for some people, but have the freedom to change almost everything (or if you are more expert, change literally everything) is fantastic.
+
+For this app I am going to use Rhino from Appsilon and the goal is to use all that I learned in the course *ProductioniZing Shiny Applications* by Veerle van Leemput.
+
+I'll be honest, I have more than 3 years building Shiny apps, but before this course I didn't know how complex and complete working with Shiny could be. So I'm excited to try everything in a more professional way.
+
+LET'S GET STARTED!

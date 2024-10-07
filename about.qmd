@@ -1,0 +1,15 @@
+---
+title: "About"
+image: eu.jpeg
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/erika-borelli-08951214a/
+    - icon: github
+      text: Github
+      href: https://github.com/erikastats
+---
+
+Hi! I´m Erika Borelli, a data lover, One Piece fan and someone ready to make R rule the world. Oh, I´m also an statistician, so you can trust me with 95% of confidence. This blog was created to be my data knowledge improvement journal (but it will be mostly about Shiny).
