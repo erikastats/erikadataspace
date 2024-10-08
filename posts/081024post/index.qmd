@@ -1,6 +1,6 @@
 ---
 title: "Grocery app - Overview page"
-description: "What went wrong and right"
+description: "Packages that I want to use"
 author: "Erika Borelli"
 date: "10/08/2024"
 categories: [shiny, ideas, app]
@@ -8,7 +8,7 @@ categories: [shiny, ideas, app]
 
 ![](overviewsketch.PNG)
 
-Yesterday I started to create the new Grocery app with Rhino. It wasn't that easy at first because I haven't being working with this for a while, so I was a slow start.
+Yesterday I started to create the new Grocery app with Rhino. It wasn't that easy at first because I haven't being working with this for a while, so it was a slow start.
 
 But I have to say, I love the concept of box. I always loved working creating functions, it just make sense, then I learned box and it's a function for shiny apps with ui and server parts, how cool is that?
 

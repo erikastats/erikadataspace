@@ -3,9 +3,10 @@ title: "Grocery app"
 description: "Ideas to create a grocery management app"
 author: "Erika Borelli"
 date: "10/07/2024"
-image: "shopping_troley.jpg"
 categories: [shiny, ideas]
 ---
+
+![](shopping-trolley.jpg)
 
 I have to admit that I love to do groceries. I'm living in Ireland at the moment and the supermarket is just 5 minutes from my home. I usually go there 2/3 times a week since I have to walk there and bring everything in a small trolley.
 
