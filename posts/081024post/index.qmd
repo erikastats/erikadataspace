@@ -1,0 +1,49 @@
+---
+title: "Grocery app - Overview page"
+description: "What went wrong and right"
+author: "Erika Borelli"
+date: "10/08/2024"
+categories: [shiny, ideas, app]
+---
+
+![](overviewsketch.PNG)
+
+Yesterday I started to create the new Grocery app with Rhino. It wasn't that easy at first because I haven't being working with this for a while, so I was a slow start.
+
+But I have to say, I love the concept of box. I always loved working creating functions, it just make sense, then I learned box and it's a function for shiny apps with ui and server parts, how cool is that?
+
+So getting back to the app, I try to use `shinyuieditor` to create a preview of how the first page on the app should be. The concept is nice, as you can see in the image, but it's not that flexible as coding from scratch. It seems that the last real update on this app was one year ago. I hope they continue to develop, it has a great potential.
+
+Other thing that I tried was to put a loading spinner. There is this excellent package called `waiter` with some options, which is very nice, but I was hoping to use a custom spinner and this package don't support that. There are other options, but it was taking me too much time, so for now I'll just focus on the essential for the app, than I'll improve it later.
+
+### googleVis
+
+This package creates interactive plots as plotly, echarts4r and highcharter. What I'm mostly interested on it is the calendar chart that looks like the calendar plot used in GIthub. Let´s see an example
+
+```{r}
+library(googleVis)
+
+Cal <- gvisCalendar(Cairo, 
+                    datevar="Date", 
+                    numvar="Temp",
+                    options=list(
+                      title="Daily temperature in Cairo",
+                      height=320,
+                      calendar="{yearLabel: { fontName: 'Times-Roman',
+                               fontSize: 32, color: '#1A8763', bold: true},
+                               cellSize: 10,
+                               cellColor: { stroke: 'red', strokeOpacity: 0.2 },
+                               focusedCellColor: {stroke:'red'}}")
+)
+html_file <- "calendar_plot.html"
+print(Cal, file = html_file)
+htmltools::includeHTML("calendar_plot.html")
+```
+
+It´s a really simple function, you just need to provide a date column and a value column, which in our app will the the grocery day and total spent on the day. This plot will be placed on the Overview Page.
+
+### Today's activity
+
+What I want to do today is finish overview page and start the analytics page. The other versions at this app I always started with two register pages, one to register the products and the other to register the groceries. Since I already have some idea of what I need to do on this pages, this time I'll start with the analytics page and use the data that I already collected.
+
+SO LET'S GET TO WORK
