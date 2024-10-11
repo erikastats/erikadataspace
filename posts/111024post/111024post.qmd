@@ -1,0 +1,17 @@
+---
+title: "Grocery app : news"
+description: "More ideas"
+author: "Erika Borelli"
+date: "10/11/2024"
+categories: [shiny, ideas]
+---
+
+![](cronometer.PNG)
+
+Have you ever heard about Cronometer? It's a site that you can put everything that you eat in a day and discover the calories and nutrients consumed. I love using it, and I'm really impressed with the design.
+
+So my idea to create the page on the grocery app to register the daily groceries is to make it looking like Cronometer Add Food to Diary page. This is one of the things that I want to focus after creating the plots.
+
+Other thing is start the tests, I want to apply the Unit test and End-to-end test. I saw how to do it on my Shiny course, but I'm not confident to apply yet. I guess I'll just know putting in practice.
+
+Another thing is to try to find a table that I could edit easily, is that possible in R?
