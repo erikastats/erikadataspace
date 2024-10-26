@@ -1,0 +1,11 @@
+---
+title: "Grocery app : Registering products"
+description: "Ideas to create the register page"
+author: "Erika Borelli"
+date: "10/26/2024"
+categories: [shiny, ideas]
+---
+
+Well, there is a important page to create to make the grocery app more useful. Everything that I got a new receipt from a grocery purchase, this data should be added to the historical data.
+
+So that's the main goal of the new page.
